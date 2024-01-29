@@ -13,7 +13,7 @@ myButton.addEventListener('click', (event) => {
     // Добавить кнопку для удаления элемента списка
     const deleteButton = document.createElement('button');
     deleteButton.classList.add('nav__img')
-    deleteButton.textContent = '';
+    deleteButton.textContent = '+';
 
 
     // Удаление элемента списка
@@ -31,3 +31,4 @@ myButton.addEventListener('click', (event) => {
     // Очистка поля ввода
     nameInput.value = '';
 })
+

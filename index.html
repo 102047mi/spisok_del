@@ -9,24 +9,26 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="title">
-            <div class="headline">
-                <h1>Мой список дел</h1>
+    <fieldset class="border">
+        <div class="wrapper">
+            <div class="title">
+                <div class="headline">
+                    <h1>Мой список дел</h1>
+                </div>
+                <div class="hero">
+                    <input class="input__hero" type="text" id="nameInput" placeholder="Что сделать...">
+                    <button class="btn__hero" id="myButton"> Добавить </button>
+                </div>
             </div>
-            <div class="hero">
-                <input class="input__hero" type="text" id="nameInput" placeholder="Что сделать...">
-                <button class="btn__hero" id="myButton"> Добавить </button>
+            <div class="nav">
+                <div class="nav__list">
+                    <ul class="nav__ul" id="list">
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="nav">
-            <div class="nav__list">
-                <ul class="nav__ul" id="list">
-                </ul>
-            </div>
-        </div>
-    </div>
-    <script src="js/script.js"></script>
+        <script src="js/script.js"></script>
+    </fieldset>
 </body>
 
 </html>
